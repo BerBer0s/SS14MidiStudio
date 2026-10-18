@@ -1,0 +1,11 @@
+[package]
+name = "ss14midi"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Command-line MIDI optimizer for Space Station 14"
+
+[dependencies]
+ss14midi-core.workspace = true
+clap.workspace = true
+serde_json.workspace = true
